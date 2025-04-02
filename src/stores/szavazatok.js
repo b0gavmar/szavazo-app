@@ -4,12 +4,17 @@ import axios from 'axios'
 
 export const useSzavazatokStore = defineStore('szavazatok', () => {
   const temak = ref([])
+  const opciok = ref([])
 
   const loadTemak = async () => {
     const resp = await axios.get("http://localhost:3000/temak")
     temak.value = resp.data
   }
 
+  const loadOpciok = async (id) => {
+    const resp = await axios.get("http://localhost:3000/opciok")
+    opciok.value = resp.data.filter(o => o.temId == id)
+  }
 
-  return { temak, loadTemak }
+  return { temak, opciok, loadTemak, loadOpciok }
 })
