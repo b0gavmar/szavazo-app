@@ -67,7 +67,7 @@
         },{
             "id": 10,
             "temaId": 1,
-            "opcio": "Lidlis szilvalekváros batyú"
+            "opcio": "Lidlis szilvalekváros batyu"
         },{
             "id": 11,
             "temaId": 1,
@@ -76,7 +76,7 @@
     ],
     "szavazatok": [
         {
-            "id": "1",
+            "id": "8140",
             "opcioId": "1"
         }
     ]

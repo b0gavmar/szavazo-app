@@ -5,6 +5,7 @@ import axios from "axios";
 export const useSzavazatokStore = defineStore("szavazatok", () => {
   const temak = ref([]);
   const opciok = ref([]);
+  const szavazatok = ref([]);
 
   const loadTemak = async () => {
     const resp = await axios.get("http://localhost:3000/temak");
@@ -17,8 +18,22 @@ export const useSzavazatokStore = defineStore("szavazatok", () => {
   };
 
   const szavazok = async (id) => {
-    console.log(id);
+    //console.log(id);
+    axios.post("http://localhost:3000/szavazatok", { opcioId: id });
   };
 
-  return { temak, opciok, loadTemak, loadOpciok, szavazok };
+  const loadSzavazatok = () => {
+    const resp = axios.get("http://localhost:3000/szavazatok");
+    szavazatok = resp.data;
+  };
+
+  return {
+    temak,
+    opciok,
+    szavazatok,
+    loadTemak,
+    loadOpciok,
+    loadSzavazatok,
+    szavazok,
+  };
 });

@@ -1,15 +1,17 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <h1>Szavazás állás</h1>
 </template>
 
+<script setup>
+import { ref, onMounted } from 'vue';
+import { useSzavazatokStore } from '@/stores/szavazatok';
+const store = useSzavazatokStore()
+
+onMounted(()=>{
+  store.loadSzavazatok();
+})
+</script>
+
 <style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
+
 </style>
