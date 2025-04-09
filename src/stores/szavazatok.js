@@ -14,7 +14,7 @@ export const useSzavazatokStore = defineStore("szavazatok", () => {
 
   const loadOpciok = async (id) => {
     const resp = await axios.get("http://localhost:3000/opciok");
-    opciok.value = resp.data.filter((o) => o.temId == id);
+    opciok.value = resp.data.filter((o) => o.temaId == id);
   };
 
   const szavazok = async (id) => {
@@ -24,7 +24,7 @@ export const useSzavazatokStore = defineStore("szavazatok", () => {
 
   const loadSzavazatok = () => {
     const resp = axios.get("http://localhost:3000/szavazatok");
-    szavazatok = resp.data;
+    szavazatok.value = resp.data;
   };
 
   return {
