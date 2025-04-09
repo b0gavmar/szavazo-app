@@ -1,83 +1,99 @@
 {
-    "temak": [
-        {
-            "id": "1",
-            "tema": "Pékáruk"
-        },
-        {
-            "id": "2",
-            "tema": "Bútorok"
-        },
-        {
-            "id": "3",
-            "tema": "Telefonok"
-        },
-        {
-            "id": "4",
-            "tema": "Autók"
-        },
-        {
-            "id": "5",
-            "tema": "Emberek"
-        }
-    ],
-    "opciok": [
-        {
-            "id": 1,
-            "temaId": 1,
-            "opcio": "Sajtos pogácsa"
-        },
-        {
-            "id": 2,
-            "temaId": 1,
-            "opcio": "Túrós pogácsa"
-        },
-        {
-            "id": 3,
-            "temaId": 1,
-            "opcio": "Tökmagos pogácsa"
-        },
-        {
-            "id": 4,
-            "temaId": 1,
-            "opcio": "Tepertős pogácsa"
-        },
-        {
-            "id": 5,
-            "temaId": 1,
-            "opcio": "Vajas pogácsa"
-        },
-        {
-            "id": 6,
-            "temaId": 1,
-            "opcio": "Krumplis pogácsa"
-        },
-        {
-            "id": 7,
-            "temaId": 1,
-            "opcio": "Kifli"
-        },{
-            "id": 8,
-            "temaId": 1,
-            "opcio": "Szilvás papucs"
-        },{
-            "id": 9,
-            "temaId": 1,
-            "opcio": "Lidlis Jalapeno csiga"
-        },{
-            "id": 10,
-            "temaId": 1,
-            "opcio": "Lidlis szilvalekváros batyu"
-        },{
-            "id": 11,
-            "temaId": 1,
-            "opcio": "Lidlis belga csokis-meggyes párna"
-        }
-    ],
-    "szavazatok": [
-        {
-            "id": "8140",
-            "opcioId": "1"
-        }
-    ]
+  "temak": [
+    {
+      "id": "1",
+      "tema": "Pékáruk"
+    },
+    {
+      "id": "2",
+      "tema": "Bútorok"
+    },
+    {
+      "id": "3",
+      "tema": "Telefonok"
+    },
+    {
+      "id": "4",
+      "tema": "Autók"
+    },
+    {
+      "id": "5",
+      "tema": "Emberek"
+    }
+  ],
+  "opciok": [
+    {
+      "id": "1",
+      "temaId": 1,
+      "opcio": "Sajtos pogácsa"
+    },
+    {
+      "id": "2",
+      "temaId": 1,
+      "opcio": "Túrós pogácsa"
+    },
+    {
+      "id": "3",
+      "temaId": 1,
+      "opcio": "Tökmagos pogácsa"
+    },
+    {
+      "id": "4",
+      "temaId": 1,
+      "opcio": "Tepertős pogácsa"
+    },
+    {
+      "id": "5",
+      "temaId": 1,
+      "opcio": "Vajas pogácsa"
+    },
+    {
+      "id": "6",
+      "temaId": 1,
+      "opcio": "Krumplis pogácsa"
+    },
+    {
+      "id": "7",
+      "temaId": 1,
+      "opcio": "Kifli"
+    },
+    {
+      "id": "8",
+      "temaId": 1,
+      "opcio": "Szilvás papucs"
+    },
+    {
+      "id": "9",
+      "temaId": 1,
+      "opcio": "Lidlis Jalapeno csiga"
+    },
+    {
+      "id": "10",
+      "temaId": 1,
+      "opcio": "Lidlis szilvalekváros batyu"
+    },
+    {
+      "id": "11",
+      "temaId": 1,
+      "opcio": "Lidlis belga csokis-meggyes párna"
+    }
+  ],
+  "szavazatok": [
+    {
+      "id": "8140",
+      "opcioId": "1"
+    },
+    {
+      "id": "42a1",
+      "opcioId": "1"
+    },
+    {
+      "id": "04a0",
+      "opcioId": "1"
+    },
+    {
+      "id": "9124",
+      "opcioId": "2"
+    }
+  ]
 }
